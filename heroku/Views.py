@@ -13,7 +13,4 @@ def goToLogin(request):
     else:
         template = loader.get_template('login.html')
         return HttpResponse(template.render(json_data, request))
-        return render_to_response('login.html')
-        data['request'] = 'request is GET'
-        json_data = json.dumps(data)
     return HttpResponse(json_data)
