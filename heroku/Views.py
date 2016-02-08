@@ -1,7 +1,6 @@
 from django.shortcuts import HttpResponse
 import json
 from django.shortcuts import render_to_response
-import os
 from django.template import loader
 
 def goToLogin(request):
