@@ -8,5 +8,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^login/', include(Views.goToLogin)),
+    url(r'^login/', Views.goToLogin),
 ]
