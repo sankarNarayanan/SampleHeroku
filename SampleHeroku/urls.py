@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from SampleHeroku import Views
+
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^checkServer/', Views.checkServer),
 ]
