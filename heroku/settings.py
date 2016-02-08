@@ -53,7 +53,9 @@ ROOT_URLCONF = 'heroku.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+                 PROJECT_ROOT+'/static/',
+                ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -62,10 +64,16 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
-            'debug': DEBUG,
         },
     },
 ]
+
+TEMPLATE_LOADERS = (
+    ('django.template.loaders.cached.Loader', (
+        'django.template.loaders.filesystem.Loader',
+        'django.template.loaders.app_directories.Loader',
+    )),
+)
 
 WSGI_APPLICATION = 'heroku.wsgi.application'
 
