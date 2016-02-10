@@ -33,4 +33,3 @@ def createUser(request):
     data['statusMessage'] = 'User Created Successfully'
     json_data = json.dumps(data)
     return HttpResponse(template.render(json_data, request))
-    return HttpResponse("User created successfully", content_type="text/plain")

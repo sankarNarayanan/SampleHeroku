@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'heroku.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "sample",
-        "USER": "sankarnarayanan",
-        "PASSWORD": "Global!23",
-        "HOST": "localhost",
+        "NAME": "d6hml3vk5h2v1t",
+        "USER": "dkkkcfwrbkwlua",
+        "PASSWORD": "TjOZQkYaSKdordmIixcK-l973-",
+        "HOST": "ec2-54-225-215-233.compute-1.amazonaws.com",
         "PORT": "5432",
     }
 }
