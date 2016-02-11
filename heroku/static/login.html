@@ -1,4 +1,5 @@
 {% load static from staticfiles %}
+<script src="{% static 'constants.js' %}"></script>
 <script src="{% static 'jquery-2.2.0.min.js' %}"></script>
 <script src="{% static 'project.js' %}"></script>
 <script src="{% static 'alertify.js' %}"></script>
@@ -10,7 +11,7 @@
 </head>
 <div class="login-page">
   <div class="form">
-    <form class="register-form" action="/createUser/" method="post">
+    <form class="register-form">
       {% csrf_token %}
         <input type="text" placeholder="name" id="userName" name="userName"/>
         <input type="password" placeholder="password" id="password" name="password"/>
@@ -19,7 +20,7 @@
         <input type="number" placeholder="phone number" id="phone" name="phone"/>
         <input type="hidden" id="version" name="version" value="0.1"/>
         <input type="hidden" id="device" name="device" value="browser"/>
-        <button>create</button>
+        <button id="createUser">create</button>
         <p class="message">Already registered? <a href="#">Sign In</a></p>
     </form>
     <form class="login-form">
