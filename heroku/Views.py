@@ -29,7 +29,7 @@ def authenticateUser(request):
 def createUser(request):
     try:
         print "Create user method invoked"
-        print request.POST
+        print str(request)
         data = {}
         json_data = {}
         u = userTable(userName = request.POST.get('userName'),

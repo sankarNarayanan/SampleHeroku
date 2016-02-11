@@ -1464,3 +1464,179 @@ Traceback (most recent call last):
     (bit, current))  # missing attribute
 VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105030848>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10503d5d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x104a8b690>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=g&password=g&email=g&phone=1&version=0.1&device=browser'>}, {}]"
 (0.835) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES ('g', 'g', '1', 'g') RETURNING "heroku_usertable"."id"; args=(u'g', u'g', u'1', u'g')
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105030a28>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10544e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10503d090>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=g&password=g&email=g&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105030a28>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10544e210>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10503d090>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=g&password=g&email=g&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1050309b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1054557d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10544ac50>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=g&password=g&email=g&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1050309b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1054557d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10544ac50>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=g&password=g&email=g&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105030b18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10544acd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105455b10>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=h&password=h&email=h&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105030b18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10544acd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105455b10>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=h&password=h&email=h&phone=1&version=0.1&device=browser'>}, {}]"
+(0.803) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES ('h', 'h', '1', 'h') RETURNING "heroku_usertable"."id"; args=(u'h', u'h', u'1', u'h')
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x104ab2c08>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10503d990>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10544ad50>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=h&password=h&email=h&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x104ab2c08>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10503d990>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10544ad50>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=h&password=h&email=h&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x104ab2b18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x104a8b950>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10503d750>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=i&password=i&email=i&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x104ab2b18>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x104a8b950>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10503d750>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=i&password=i&email=i&phone=1&version=0.1&device=browser'>}, {}]"
+(0.752) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES ('i', 'i', '1', 'i') RETURNING "heroku_usertable"."id"; args=(u'i', u'i', u'1', u'i')
+(0.417) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.425) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.520) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.417) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105ca1cf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106ce2150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105cbc450>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=i&password=i&email=i&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x105ca1cf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106ce2150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105cbc450>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=i&password=i&email=i&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbb90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d10fd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105c84490>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=j&password=j&email=j&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbb90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d10fd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x105c84490>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=j&password=j&email=j&phone=1&version=0.1&device=browser'>}, {}]"
+(0.835) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES ('j', 'j', '1', 'j') RETURNING "heroku_usertable"."id"; args=(u'j', u'j', u'1', u'j')
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbcf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d18510>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106d10910>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=j&password=j&email=j&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbcf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d18510>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106d10910>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=j&password=j&email=j&phone=1&version=0.1&device=browser'>}, {}]"
+(0.884) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES (NULL, NULL, NULL, NULL) RETURNING "heroku_usertable"."id"; args=(None, None, None, None)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbde8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d10710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1060fc650>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=l&password=l&email=l&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106cfbde8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106d10710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1060fc650>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=l&password=l&email=l&phone=1&version=0.1&device=browser'>}, {}]"
+(0.386) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.375) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.835) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES (NULL, NULL, NULL, NULL) RETURNING "heroku_usertable"."id"; args=(None, None, None, None)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10637aed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10680e250>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1067f55d0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10637aed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10680e250>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1067f55d0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10682a848>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106834750>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1067f5ed0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10682a848>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106834750>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1067f5ed0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Not Found: /createUser
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Internal Server Error: /createUser
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/Library/Python/2.7/site-packages/django/middleware/common.py", line 114, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/Library/Python/2.7/site-packages/django/middleware/common.py", line 98, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/createUser/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'7cOjX9J2voHrTq5KOto0xphCzUNKDP0S'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10683e050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1068340d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106857350>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'7cOjX9J2voHrTq5KOto0xphCzUNKDP0S'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10683e050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1068340d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106857350>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+(0.734) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES (NULL, NULL, NULL, NULL) RETURNING "heroku_usertable"."id"; args=(None, None, None, None)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'modF3Qlpoof2ttj8cZbNYMs8WcidHAqb'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10683e398>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10685e590>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1068345d0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'modF3Qlpoof2ttj8cZbNYMs8WcidHAqb'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10683e398>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10685e590>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1068345d0>, u'request': <WSGIRequest: GET '/login/?csrfmiddlewaretoken=zoUueYmHM0oPVQpXfEySmUVB4I3yU4ST&userName=o&password=o&email=o&phone=1&version=0.1&device=browser'>}, {}]"
+(0.832) INSERT INTO "heroku_usertable" ("userName", "password", "phone", "emailId") VALUES ('o', 'o', '1', 'o') RETURNING "heroku_usertable"."id"; args=(u'o', u'o', u'1', u'o')

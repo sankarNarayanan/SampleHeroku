@@ -8,8 +8,9 @@ $(document).ready(function() {
 	});
 
 
-	$('#createUser').click(function () {
+	$('#createUser').click(function (event) {
 
+        event.preventDefault();
 
         var jqxhr = $.post( baseUrl.concat('createUser/'), $( ".register-form" ).serialize(), function(response) {
             alert(response.status);
@@ -24,14 +25,16 @@ $(document).ready(function() {
 
         });
 
+
 //        $.ajax({
 //                type: "POST",
 //                url: baseUrl.concat('createUser/'),
 //                dataType: 'json',
 //                data:$( ".register-form" ).serialize(),
-//                xhrFields: {
-//                    withCredentials: true
-//                },
+//                //async: false,
+//                //xhrFields: {
+//                //    withCredentials: true
+//                //},
 //                crossDomain: true,
 //                beforeSend: function(request) {
 //                     request.setRequestHeader("X-Requested-With", "XMLHttpRequest");
