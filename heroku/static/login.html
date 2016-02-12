@@ -9,13 +9,14 @@
     <link rel="stylesheet" type="text/css" href="{% static 'project.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<div class="loading">
+<div class="loading displayNone">
     <div class="sk-chasing-dots">
         <div class="sk-child sk-dot1"></div>
         <div class="sk-child sk-dot2"></div>
     </div>
 </div>
 <div class="login-page">
+    <div class="header"></div>
   <div class="form">
     <form class="register-form">
       {% csrf_token %}

@@ -10,10 +10,14 @@ $(document).ready(function() {
 
 	$('#createUser').click(function (event) {
 
+        $('.loading').removeClass('displayNone');
+
         event.preventDefault();
 
         var jqxhr = $.post( baseUrl.concat('createUser/'), $( ".register-form" ).serialize(), function(response) {
-            alert(response.status);
+            $('.loading').addClass('displayNone');
+            //alert(response.status);
+            alertify.success(response.status);
         })
         .done(function() {
 
