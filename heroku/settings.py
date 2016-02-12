@@ -38,6 +38,13 @@ INSTALLED_APPS = (
     'heroku'
 )
 
+SESSION_ENGINE =(
+    'django.contrib.sessions.backends.signed_cookies'
+)
+
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = 'yr6#_d%&!r#qfmblv35xi#9e4)o5!p(6scr^wfzsis_qd@=2%8'
+
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -47,6 +54,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'heroku.middleware.SessionMiddleware'
 )
 
 ROOT_URLCONF = 'heroku.urls'

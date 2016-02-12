@@ -30,11 +30,11 @@
         <button id="createUser">create</button>
         <p class="message">Already registered? <a href="#">Sign In</a></p>
     </form>
-    <form class="login-form">
+    <form class="login-form" action="/authenticateUser/" method="post">
         <input type="hidden" id="statusMessage" value={{statusMessage}}>
         <input type="hidden" id="statusCode" value={{statusCode}}>
-        <input type="text" placeholder="username"/>
-        <input type="password" placeholder="password"/>
+        <input type="text" placeholder="username" name="loginUserName"/>
+        <input type="password" placeholder="password" name="loginPassword"/>
         <button id="loginButton">login</button>
         <p class="message">Not registered? <a href="#">Create an account</a></p>
     </form>
