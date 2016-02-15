@@ -23,31 +23,38 @@ def goToLogin(request):
 
 @csrf_exempt
 def authenticateUser(request):
+    print("check")
     from django.contrib.auth import authenticate, login
-    username = request.POST['loginUserName']
-    password = request.POST['loginPassword']
-    user = authenticate(username=username, password=password)
-    json_data = {}
-    if user is not None:
-        if user.is_active:
-            login(request, user)
-            # Redirect to a success page.
-            return JsonResponse({"status": "You're authenticated!"})
+    if request.method == "POST":
+        username = request.POST['loginUserName']
+        password = request.POST['loginPassword']
+        user = authenticate(username=username, password=password)
+        json_data = {}
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                if request.POST.get('device'):
+                    return JsonResponse({"status": "You're authenticated!"})
+                else:
+                    template = loader.get_template('LandingScreen.html')
+                    return HttpResponse(template.render(json_data, request))
+            else:
+                if request.POST.get('device'):
+                  return JsonResponse({"status": "Please enter valid credentials!"})
+                else:
+                    template = loader.get_template('login.html')
+                    return HttpResponse(template.render(json_data, request))
         else:
-            return JsonResponse({"status": "Please enter valid credentials!"})
-            # Return a 'disabled account' error message
-    else:
-        return JsonResponse({"status": "Please enter valid credentials!"})
-        # Return an 'invalid login' error message.
+            if request.POST.get('device'):
+                return JsonResponse({"status": "Please enter valid credentials!"})
+            else:
+                template = loader.get_template('login.html')
+                return HttpResponse(template.render(json_data, request))
+
 
 @csrf_exempt
 def createUser(request):
     try:
-        # #print(request.session)
-        # #print "Create user method invoked"
-        # print str(request)
-        # data = {}
-        # json_data = {}
         u = userTable(userName = request.POST.get('userName'),
         password = request.POST.get('password'),
         phone = request.POST.get('phone'),
