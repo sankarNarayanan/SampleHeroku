@@ -273,13 +273,13 @@ body {
 /** mobile device support **/
 @media screen and (max-width: 400px) {
   .header{
-    font-size: 1em;
+    font-size: 2em;
   }
 }
 
 /** desktop device support **/
 @media screen and (min-width: 700px) {
      .header{
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
