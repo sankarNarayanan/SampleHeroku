@@ -4334,3 +4334,11 @@ VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <Regex
 (0.632) UPDATE "auth_user" SET "last_login" = '2016-02-15T14:37:19.785397+00:00'::timestamptz WHERE "auth_user"."id" = 2; args=(datetime.datetime(2016, 2, 15, 14, 37, 19, 785397, tzinfo=<UTC>), 2)
 (0.335) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'sankar'; args=(u'sankar',)
 (0.632) UPDATE "auth_user" SET "last_login" = '2016-02-15T14:39:42.363322+00:00'::timestamptz WHERE "auth_user"."id" = 2; args=(datetime.datetime(2016, 2, 15, 14, 39, 42, 363322, tzinfo=<UTC>), 2)
+(0.313) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.313) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
