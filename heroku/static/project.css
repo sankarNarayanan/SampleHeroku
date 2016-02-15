@@ -261,4 +261,25 @@ body {
 
 .header{
   height: 18%;
+  text-align: center;
+  position: relative;
+  top: 50;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+/** mobile device support **/
+@media screen and (max-width: 400px) {
+  .header{
+    font-size: 1em;
+  }
+}
+
+/** desktop device support **/
+@media screen and (min-width: 700px) {
+     .header{
+    font-size: 2em;
+  }
 }

@@ -27,10 +27,13 @@ def authenticateUser(request):
     username = request.POST['loginUserName']
     password = request.POST['loginPassword']
     user = authenticate(username=username, password=password)
+    json_data = {}
     if user is not None:
         if user.is_active:
             login(request, user)
             # Redirect to a success page.
+            template = loader.get_template('LandingScreen.html')
+            return HttpResponse(template.render(json_data, request))
             return HttpResponse("You are authenticated")
         else:
             return HttpResponse("Please enter valid credentials")

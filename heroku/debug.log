@@ -2916,3 +2916,284 @@ Traceback (most recent call last):
     (bit, current))  # missing attribute
 VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10678ab90>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106799c90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10678ba10>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
 (0.327) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'sadasd'; args=(u'sadasd',)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10678ad70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106fb4c90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106799e10>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10678ad70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106fb4c90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106799e10>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10678ae60>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10676d1d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106799510>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10678ae60>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10676d1d0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106799510>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+(0.500) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.516) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.922) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.347) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.540) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.288) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.280) 
+            SELECT c.relname, c.relkind
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid); args=None
+(0.490) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106461d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107097e10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482110>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'45e7rkWs8i3i1ZdLYgQ4UJcC1jQr6txG'>, 'user': <SimpleLazyObject: <function <lambda> at 0x106461d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107097e10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482110>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+(0.783) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'sankar'; args=(u'sankar',)
+(3.916) UPDATE "heroku_usertable" SET "password" = 'sankar', "phone" = '123456', "emailId" = 'snkr.vln@gmail.com' WHERE "heroku_usertable"."userName" = 'sankar'; args=(u'sankar', u'123456', u'snkr.vln@gmail.com', u'sankar')
+(3.034) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$24000$BYsgclgsF6cT$mO5wJ4VYFjhqO07yo/a50hqbmgHyw4iAz+OKkOdSv/U=', NULL, false, 'sankar', '', '', 'snkr.vln@gmail.com', false, true, '2016-02-15T07:23:51.119078+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$24000$BYsgclgsF6cT$mO5wJ4VYFjhqO07yo/a50hqbmgHyw4iAz+OKkOdSv/U=', None, False, u'sankar', u'', u'', u'snkr.vln@gmail.com', False, True, datetime.datetime(2016, 2, 15, 7, 23, 51, 119078, tzinfo=<UTC>))
+(0.581) UPDATE "auth_user" SET "password" = 'pbkdf2_sha256$24000$BYsgclgsF6cT$mO5wJ4VYFjhqO07yo/a50hqbmgHyw4iAz+OKkOdSv/U=', "last_login" = NULL, "is_superuser" = false, "username" = 'sankar', "first_name" = '', "last_name" = '', "email" = 'snkr.vln@gmail.com', "is_staff" = false, "is_active" = true, "date_joined" = '2016-02-15T07:23:51.119078+00:00'::timestamptz WHERE "auth_user"."id" = 2; args=(u'pbkdf2_sha256$24000$BYsgclgsF6cT$mO5wJ4VYFjhqO07yo/a50hqbmgHyw4iAz+OKkOdSv/U=', False, u'sankar', u'', u'', u'snkr.vln@gmail.com', False, True, datetime.datetime(2016, 2, 15, 7, 23, 51, 119078, tzinfo=<UTC>), 2)
+(0.323) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'sankar'; args=(u'sankar',)
+(0.953) UPDATE "auth_user" SET "last_login" = '2016-02-15T07:24:11.634357+00:00'::timestamptz WHERE "auth_user"."id" = 2; args=(datetime.datetime(2016, 2, 15, 7, 24, 11, 634357, tzinfo=<UTC>), 2)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482e50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106448290>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482e50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106448290>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107097350>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107097350>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074fa110>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0210>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074fa110>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0210>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+(0.998) UPDATE "heroku_usertable" SET "password" = 'abhi', "phone" = '213123', "emailId" = 'abhi@.' WHERE "heroku_usertable"."userName" = 'abhi'; args=(u'abhi', u'213123', u'abhi@.', u'abhi')
+(1.006) INSERT INTO "auth_user" ("password", "last_login", "is_superuser", "username", "first_name", "last_name", "email", "is_staff", "is_active", "date_joined") VALUES ('pbkdf2_sha256$24000$P3WGkx4ajySE$GZCP+hJnRCZqBy0rF3Hf2ZZbUMCjaWXHs3J+/3MC6ME=', NULL, false, 'abhi', '', '', 'abhi@.', false, true, '2016-02-15T07:28:20.576143+00:00'::timestamptz) RETURNING "auth_user"."id"; args=(u'pbkdf2_sha256$24000$P3WGkx4ajySE$GZCP+hJnRCZqBy0rF3Hf2ZZbUMCjaWXHs3J+/3MC6ME=', None, False, u'abhi', u'', u'', u'abhi@.', False, True, datetime.datetime(2016, 2, 15, 7, 28, 20, 576143, tzinfo=<UTC>))
+(0.777) UPDATE "auth_user" SET "password" = 'pbkdf2_sha256$24000$P3WGkx4ajySE$GZCP+hJnRCZqBy0rF3Hf2ZZbUMCjaWXHs3J+/3MC6ME=', "last_login" = NULL, "is_superuser" = false, "username" = 'abhi', "first_name" = '', "last_name" = '', "email" = 'abhi@.', "is_staff" = false, "is_active" = true, "date_joined" = '2016-02-15T07:28:20.576143+00:00'::timestamptz WHERE "auth_user"."id" = 3; args=(u'pbkdf2_sha256$24000$P3WGkx4ajySE$GZCP+hJnRCZqBy0rF3Hf2ZZbUMCjaWXHs3J+/3MC6ME=', False, u'abhi', u'', u'', u'abhi@.', False, True, datetime.datetime(2016, 2, 15, 7, 28, 20, 576143, tzinfo=<UTC>), 3)
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x107500050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504650>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074fa750>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x107500050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504650>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074fa750>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482e50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0510>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482e50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0510>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106448310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0410>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106448310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0410>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9c90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070babd0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9c90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070babd0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504a90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504a90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107504550>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a050>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9710>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107504550>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0610>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0610>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107508350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0950>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8d70>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107508350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0950>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a140>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107d17150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074fa650>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a140>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107d17150>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074fa650>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a1b8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074fa510>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107508ad0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a1b8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074fa510>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107508ad0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1070bae90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0950>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1070bae90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1074f0950>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8cf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9b90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482990>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8cf8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074d9b90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482990>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504f50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070ba810>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504f50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070ba810>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107d17350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107504dd0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8ed8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107d17350>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107504dd0>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a140>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504d10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107508d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x10750a140>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x107504d10>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x107508d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482a90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106448190>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8f50>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x106482a90>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106448190>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0f50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070bad10>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b89b0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0f50>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x1070bad10>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusMessage' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusMessage] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0850>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
+Exception while resolving variable 'statusCode' in template 'login.html'.
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 901, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [statusCode] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'tbAqgak67QrbMHWTnWZEaNvK0lsaTseE'>, 'user': <SimpleLazyObject: <function <lambda> at 0x1070b8c80>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x1074f0850>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x106482d50>, u'request': <WSGIRequest: GET '/login/'>}, {}]"
