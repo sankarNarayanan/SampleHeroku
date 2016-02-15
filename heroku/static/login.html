@@ -38,10 +38,8 @@
         <p class="message" id="goToLogin">Already registered? <a href="#">Sign In</a></p>
     </form>
     <form class="login-form" action="\authenticateUser\" method="post">
-        <input type="hidden" id="statusMessage" value={{statusMessage}}>
-        <input type="hidden" id="statusCode" value={{statusCode}}>
-        <input type="text" placeholder="username" name="loginUserName"/>
-        <input type="password" placeholder="password" name="loginPassword"/>
+        <input type="text" placeholder="username" name="loginUserName" id="loginUserName"/>
+        <input type="password" placeholder="password" name="loginPassword" id="loginPassword"/>
         <button id="loginButton">login</button>
         <p class="message" id="goToCreateUser">Not registered? <a href="#">Create an account</a></p>
     </form>

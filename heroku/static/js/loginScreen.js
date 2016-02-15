@@ -12,13 +12,14 @@ $(document).ready(function() {
 		});
 
 
-    $('.login-form #loginButton').click(function(){
-        $('.loading').removeClass('displayNone');
-    });
-
 
     $('#loginButton').click(function (event) {
-        $('.loading').removeClass('displayNone');
+        if (($('#loginUserName').val() != '') && ($('#loginPassword').val() != '')) {
+            $('.loading').removeClass('displayNone');
+        }else{
+            event.preventDefault();
+            alertify.error('Enter all the fields');
+        }
 	});
 
 
