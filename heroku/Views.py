@@ -32,14 +32,12 @@ def authenticateUser(request):
         if user.is_active:
             login(request, user)
             # Redirect to a success page.
-            template = loader.get_template('LandingScreen.html')
-            return HttpResponse(template.render(json_data, request))
-            return HttpResponse("You are authenticated")
+            return JsonResponse({"status": "You're authenticated!"})
         else:
-            return HttpResponse("Please enter valid credentials")
+            return JsonResponse({"status": "Please enter valid credentials!"})
             # Return a 'disabled account' error message
     else:
-        return HttpResponse("Please enter valid credentials")
+        return JsonResponse({"status": "Please enter valid credentials!"})
         # Return an 'invalid login' error message.
 
 @csrf_exempt
