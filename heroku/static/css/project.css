@@ -1,38 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300);*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+body p {
+  font-weight: 300 !important; / You specify the number you see next to the fonts to change from light to bold ie you would put 700 etc. etc. /
+}
 
 .login-page {
   padding: 8% 0 0;
   margin: auto;
 }
 .form {
+  background: #f1f1f1;
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
   /*background: #2193b0; /!* fallback for old browsers *!/*/
-  /*background: -webkit-linear-gradient(left,#2193b0,#6dd5ed);*/
-  /*background:linear-gradient(to right,#2193b0,#6dd5ed);*/
+  /* background: -webkit-linear-gradient(left,#2193b0,#6dd5ed); */
+  /* background:linear-gradient(to right,#2193b0,#6dd5ed); */
+  border-radius: 2px;
 }
+
+.form {}
 .form input {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   outline: 0;
-  background: #f2f2f2;
+  background: white;
   width: 100%;
-  border: 0;
+  border: 1px solid #d9d9d9;
   margin: 0 0 15px;
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
+  border-radius: 2px;
+  height: 5rem !important;
+  /* border-color: #a8a8a8; */
+  /* border-width: 5px; */
+  font-weight: 300;
 }
 .form button {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #008dd3;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -41,8 +60,10 @@
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
+  border-radius: 2px;
 }
 .form button:hover,.form button:active,.form button:focus {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
   background: #43A047;
 }
 .form .message {
@@ -51,7 +72,7 @@
   font-size: 12px;
 }
 .form .message a {
-  color: #4CAF50;
+  color: #008dd3;
   text-decoration: none;
 }
 .form .register-form {
@@ -91,16 +112,16 @@
   color: #EF3B3A;
 }
 body {
-  background: #2193b0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(left,#2193b0,#6dd5ed);
-  background:linear-gradient(to right,#2193b0,#6dd5ed);
+  /* background: #2193b0; *//* fallback for old browsers */
+  /* background: -webkit-linear-gradient(left,#2193b0,#6dd5ed); */
+  /* background:linear-gradient(to right,#2193b0,#6dd5ed); */
   /*background: -webkit-linear-gradient(right, #76b852, #8DC26F);*/
   /*background: -moz-linear-gradient(right, #76b852, #8DC26F);*/
   /*background: -o-linear-gradient(right, #76b852, #8DC26F);*/
   /*background: linear-gradient(to left, #76b852, #8DC26F);*/
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  /* font-family: "Roboto", sans-serif; */
+  /* -webkit-font-smoothing: antialiased; */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .displayBlock {
@@ -264,10 +285,10 @@ body {
   text-align: center;
   position: relative;
   top: 50;
-  color: white;
+  color: gray;
   font-size: x-large;
-  font-weight: bold;
-  font-family: cursive;
+  font-weight: 300;
+  /* font-family: cursive; */
 }
 
 /** mobile device support **/
@@ -282,4 +303,20 @@ body {
      .header{
     font-size: 2.5em;
   }
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
 }
