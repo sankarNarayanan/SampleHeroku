@@ -36,7 +36,7 @@ def authenticateUser(request):
             return HttpResponse("Please enter valid credentials")
             # Return a 'disabled account' error message
     else:
-        return HttpResponse("Please enyer valid credentials")
+        return HttpResponse("Please enter valid credentials")
         # Return an 'invalid login' error message.
 
 @csrf_exempt
