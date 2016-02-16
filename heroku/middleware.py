@@ -13,7 +13,7 @@ class SessionMiddleware(object):
         try:
             url = str(request.META.get('PATH_INFO'))
             print(url)
-            if url != '/' and url != '/login/' and url != '/authenticateUser/' and url != '/createUser/':
+            if url != '/' and url != '/login/' and url != '/authenticateUser/' and url != '/createUser/' and url != '/LoginScreen.js/':
                 if request.session.get('isloggedin', '') != '1':
                     result = {'status': 'error', 'msg': 'Invalid Session.'}
                     return HttpResponse(json.dumps(result), content_type = "application/json")
