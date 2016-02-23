@@ -37,7 +37,8 @@ $(document).ready(function() {
 
         })
         .fail(function(error) {
-        alert("error="+error.statusText);
+                $('.loading').addClass('displayNone');
+                alert("error="+error.statusText);
         })
         .always(function() {
 
