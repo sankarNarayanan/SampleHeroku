@@ -320,3 +320,49 @@ body {
 :-ms-input-placeholder {
    text-align: center;
 }
+
+/* Landing screen */
+
+.landingHeader{
+    background: #f1f1f1;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    color: black;
+    height: 15%;
+    position: relative;
+}
+
+.landingHeaderImage{
+    height: 80%;
+    width: 14%;
+    margin: 2%;
+    border-radius: 50%;
+}
+
+.connectEngineHeader{
+    text-align: left;
+    padding-left: 3%;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    top: 39%;
+}
+
+.searchContainer{
+  text-align: right;
+    padding-right: 5%;
+    top: 29%;
+    position: inherit;
+}
+
+#searchText{
+    height: 36%;
+    width: 30%;
+    font-size: initial;
+    -webkit-appearance:textfield;
+    -moz-appearance:textfield;
+    border: none;
+    border-radius: 4px;
+}
