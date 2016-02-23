@@ -366,3 +366,14 @@ body {
     border: none;
     border-radius: 4px;
 }
+
+.recentSearches{
+    height: 73%;
+    width: 40%;
+    background: red;
+    margin: 10% 0 2% 2%;
+    border-radius: 2%;
+}
+/*.parent-container{*/
+  /*margin: 0 10% 0;*/
+/*}*/

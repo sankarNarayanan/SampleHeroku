@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c57c7a5-a825-429d-acb4-1f61db0b17ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/static/LandingScreen.html" afterPath="$PROJECT_DIR$/heroku/static/LandingScreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/debug.log" afterPath="$PROJECT_DIR$/heroku/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heroku/static/css/project.css" afterPath="$PROJECT_DIR$/heroku/static/css/project.css" />
     </list>
     <ignored path="SampleHeroku.iws" />
@@ -40,8 +42,8 @@
       <file leaf-file-name="LandingScreen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heroku/static/LandingScreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="72" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="72" />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -50,8 +52,8 @@
       <file leaf-file-name="project.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heroku/static/css/project.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9122807">
-              <caret line="366" column="23" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.7839506">
+              <caret line="370" column="4" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -1058,16 +1060,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/heroku/static/LandingScreen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="72" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="72" />
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/heroku/static/css/project.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9122807">
-          <caret line="366" column="23" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.7839506">
+          <caret line="370" column="4" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
           <folding />
         </state>
       </provider>
